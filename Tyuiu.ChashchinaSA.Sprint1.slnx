@@ -1,6 +1,6 @@
 <Solution>
   <Folder Name="/Task0/">
-    <Project Path="Tyuiu.ChashchinaSA.Sprint1.Task0.Lib/Tyuiu.ChashchinaSA.Sprint1.Task0.Lib.csproj" Id="089598cb-3bf8-40ca-8d0b-76879c758444" />
+    <Project Path="Tyuiu.ChashchinaSA.Sprint1.Task0.Lib/Tyuiu.ChashchinaSA.Sprint1.Task0.V23.Lib.csproj" Id="089598cb-3bf8-40ca-8d0b-76879c758444" />
     <Project Path="Tyuiu.ChashchinaSA.Sprint1.Task0.V23.Test/Tyuiu.ChashchinaSA.Sprint1.Task0.V23.Test.csproj" />
     <Project Path="Tyuiu.ChashchinaSA.Sprint1.Task0.V23/Tyuiu.ChashchinaSA.Sprint1.Task0.V23.csproj" />
   </Folder>
