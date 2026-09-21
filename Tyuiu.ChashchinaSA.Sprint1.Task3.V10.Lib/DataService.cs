@@ -17,7 +17,7 @@ namespace Tyuiu.ChashchinaSA.Sprint1.Task3.V10.Lib
             }
             string originalNumberStr = number.ToString().Replace(',', '.');
 
-            return $"{originalNumberStr} руб. — это {rubles} руб. {kopecks} коп.";
+            return $"{originalNumberStr} руб. - это {rubles} руб. {kopecks} коп.";
 
         }
     }
