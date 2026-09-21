@@ -1,7 +1,6 @@
 ﻿using System.Globalization;
-using System.Runtime.Serialization;
-using Tyuiu.ChashchinaSA.Sprint1.Task3.V10.Lib;
-namespace Tyuiu.ChashchinaSA.Sprint1.Task3.V10
+using Tyuiu.ChashchinaSA.Sprint1.Task6.V16.Lib;
+namespace Tyuiu.ChashchinaSA.Sprint1.Task6.V16
 {
     internal class Program
     {
@@ -12,31 +11,40 @@ namespace Tyuiu.ChashchinaSA.Sprint1.Task3.V10
             Console.Title = "Спринт #1 | Выполнила: Чащина С. А. | АСОиУб-26-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Операторы составного присваивания                                 *");
-            Console.WriteLine("* Задание #3                                                              *");
-            Console.WriteLine("* Вариант #10                                                             *");
+            Console.WriteLine("* Тема: Работа со строками класс String                                   *");
+            Console.WriteLine("* Задание #6                                                              *");
+            Console.WriteLine("* Вариант #16                                                             *");
             Console.WriteLine("* Выполнила: Чащина Софья Алексеевна | АСОиУб-26-1                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
-            Console.WriteLine("* выполняет указанные расчеты и печатает результат на экране              *");
+            Console.WriteLine("* Написать программу: пользователь вводит текст.                          *");
+            Console.WriteLine("* Проверить, что в строке есть восклицание (!) и вопрос (?).              *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("*ИСХОДНЫЕ ДАННЫЕ:                                                         *");
             Console.WriteLine("***************************************************************************");
 
-            double x;
-            IFormatProvider formatter = new NumberFormatInfo { NumberDecimalSeparator = "." };
-            Console.WriteLine("Введите дробное число: ");
-            string input = Console.ReadLine();
-            input = input.Replace(',', '.');
-            x = double.Parse(input, formatter);
+            Console.Write("Введите текст для проверки: ");
+            string strTest = Console.ReadLine();
+            bool res = ds.CheckSpecSymbols(strTest);
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.NumberToMoney(x));
+            Console.WriteLine($"{res}");
+            
+            if (res)
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("Проверка успешна: в тексте найдены и '!', и '?'.");
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Проверка провалена: отсутствует знак '!' или '?' (или оба).");
+            }
+            Console.ResetColor();
 
             Console.ReadLine();
         }

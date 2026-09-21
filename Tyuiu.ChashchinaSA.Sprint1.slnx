@@ -19,4 +19,24 @@
     <Project Path="Tyuiu.ChashchinaSA.Sprint1.Task3.V10.Test/Tyuiu.ChashchinaSA.Sprint1.Task3.V10.Test.csproj" Id="b9de18b9-157f-4bbb-87ca-a047e2eae294" />
     <Project Path="Tyuiu.ChashchinaSA.Sprint1.Task3.V10/Tyuiu.ChashchinaSA.Sprint1.Task3.V10.csproj" Id="13c9c6c3-2358-4f3f-b893-0832a3893748" />
   </Folder>
+  <Folder Name="/Task4/">
+    <Project Path="Tyuiu.ChashchinaSA.Sprint1.Task4.V10.Lib/Tyuiu.ChashchinaSA.Sprint1.Task4.V10.Lib.csproj" Id="fc33f49e-6969-4d3b-9e8e-ed0e633e64ed" />
+    <Project Path="Tyuiu.ChashchinaSA.Sprint1.Task4.V10.Test/Tyuiu.ChashchinaSA.Sprint1.Task4.V10.Test.csproj" Id="256c976d-90e1-48ae-b118-734da3c1f060" />
+    <Project Path="Tyuiu.ChashchinaSA.Sprint1.Task4.V10/Tyuiu.ChashchinaSA.Sprint1.Task4.V10.csproj" Id="34ec9592-81a7-4a08-a6ee-4905e156917f" />
+  </Folder>
+  <Folder Name="/Task5/">
+    <Project Path="Tyuiu.ChashchinaSA.Sprint1.Task5.V5.Lib/Tyuiu.ChashchinaSA.Sprint1.Task5.V5.Lib.csproj" Id="47f3fb9c-37dc-4165-ad9d-1d1fd2101cc1" />
+    <Project Path="Tyuiu.ChashchinaSA.Sprint1.Task5.V5.Test/Tyuiu.ChashchinaSA.Sprint1.Task5.V5.Test.csproj" Id="cad282b7-1726-4ce5-b17a-b958d7caa3f5" />
+    <Project Path="Tyuiu.ChashchinaSA.Sprint1.Task5.V5/Tyuiu.ChashchinaSA.Sprint1.Task5.V5.csproj" Id="1932a29c-ab2b-4947-a8de-bbc6aee4d480" />
+  </Folder>
+  <Folder Name="/Task6/">
+    <Project Path="Tyuiu.ChashchinaSA.Sprint1.Task6.V16.Lib/Tyuiu.ChashchinaSA.Sprint1.Task6.V16.Lib.csproj" Id="041a3cb4-9b0a-44b3-a644-9c7171ff50fc" />
+    <Project Path="Tyuiu.ChashchinaSA.Sprint1.Task6.V16.Test/Tyuiu.ChashchinaSA.Sprint1.Task6.V16.Test.csproj" Id="46a10865-cf2d-4bec-8225-1b2fc0a4fb25" />
+    <Project Path="Tyuiu.ChashchinaSA.Sprint1.Task6.V16/Tyuiu.ChashchinaSA.Sprint1.Task6.V16.csproj" Id="b097836a-e2eb-4b92-af98-fd5f1ee3c9a2" />
+  </Folder>
+  <Folder Name="/Task7/">
+    <Project Path="Tyuiu.ChashchinaSA.Sprint1.Task7.V2.Lib/Tyuiu.ChashchinaSA.Sprint1.Task7.V2.Lib.csproj" Id="47235fc1-fcea-4fd4-bfb4-dbca509c323c" />
+    <Project Path="Tyuiu.ChashchinaSA.Sprint1.Task7.V2.Test/Tyuiu.ChashchinaSA.Sprint1.Task7.V2.Test.csproj" Id="c0fccacf-90e0-4ab7-9424-634f14b4a077" />
+    <Project Path="Tyuiu.ChashchinaSA.Sprint1.Task7.V2/Tyuiu.ChashchinaSA.Sprint1.Task7.V2.csproj" Id="2a9badda-8c26-44b6-8d4e-8a5e962d77c5" />
+  </Folder>
 </Solution>
